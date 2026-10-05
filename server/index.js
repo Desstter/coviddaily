@@ -39,7 +39,7 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/dist/index.html'))
 })
 
-app.listen(port, (err) => {
+app.listen(port, '127.0.0.1', (err) => {
     if (err) console.log(err)
     console.log('COVID Daily server listening on PORT', port)
 })
