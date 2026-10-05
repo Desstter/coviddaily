@@ -6,11 +6,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "nodemon": "nodemon index.js"
+    "nodemon": "node --watch index.js"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
+  "devDependencies": {},
   "overrides": {
     "body-parser@^1.0.0": "1.20.8",
     "brace-expansion@^1.0.0": "1.1.21",
